@@ -1,0 +1,16 @@
+{
+  "name": "swc-input-source-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node scripts/build",
+    "preview": "http-server --port=3333 lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.2.61",
+    "http-server": "^0.12.3"
+  }
+}
